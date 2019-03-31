@@ -21,5 +21,6 @@ namespace LandonHotel.Data
         public bool IsSmoking { get; set; }
         public bool HasPets { get; set; }
         public int RoomId { get; set; }
+        public object NumberOfGuests { get; set; }
     }
 }
